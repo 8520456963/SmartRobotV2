@@ -155,7 +155,7 @@ void loop() {
     else if(RED==Y){ 
        _mStop();
      }
-   
+   }
   count = count + 1;
   if (count >= 50){
     /*Serial.println("Test de distance");*/
@@ -168,4 +168,4 @@ void loop() {
       /*Serial.println("-------------------");*/
     }
   }
-}}
+}
